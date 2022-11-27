@@ -1,0 +1,28 @@
+@import '../../../../common/variable';
+   
+.login_btn,.register_btn{
+    padding: 10px 0px;
+    width: 100%;
+    color: $MediumGray;
+    font-size: 16px;
+    &:hover{
+            color: $AlmostBlack;
+    }
+}
+
+.register_btn{
+    border: 2px solid $MediumGray;
+    border-radius: 10px;
+    &:hover{
+            border-color: $AlmostBlack;
+    }
+    }
+
+@media screen and (min-width:992px){
+    .login_btn, .register_btn{
+        padding: 10px 20px;
+    }
+    .register_btn{
+        margin-left: 20px;
+        }
+}

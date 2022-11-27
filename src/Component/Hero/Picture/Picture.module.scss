@@ -1,0 +1,16 @@
+.picture_wrapper{
+    img{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:992px){
+    .picture_wrapper{
+        height: 100%;
+        width: auto;
+        img{
+            height: 100%;
+            width: auto;
+        }
+    }
+}

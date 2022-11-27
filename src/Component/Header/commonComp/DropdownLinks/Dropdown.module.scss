@@ -1,0 +1,50 @@
+@import '../../../../common/variable';
+
+.drop_wrapper{
+    width: 100%;
+    margin-top: 20px;
+    .btn_dropdown{
+        font-size: 18px;
+        color:$MediumGray;
+        display: flex;
+        align-items: center;
+        img{
+            margin-left: 15px;
+        }
+        &:hover{
+            color:$AlmostBlack;
+        }
+    }
+    .features_wrapper,.company_wrapper{
+        display: none;
+        list-style: none;
+        padding: 10px 20px;
+        background-color: $AlmostWhite;
+        z-index: 2;
+    }
+    .list_open{
+        display: block;
+    }
+}
+
+@media screen and (min-width:992px){
+    .drop_wrapper{
+        margin-top: 0;
+        margin: 0px 15px;
+        position: relative;
+        .btn_dropdown{
+            font-size: 16px;
+        }
+        .features_wrapper,.company_wrapper{
+            position: absolute;
+            top:40px;
+            right: 0;
+            padding: 10px 25px 25px 25px;
+            box-shadow: 5px 5px 60px -20px $MediumGray;
+            border-radius: 10px;
+        }
+        .company_wrapper{
+            right: -40px;
+        }
+    }
+}

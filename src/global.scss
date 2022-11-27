@@ -1,0 +1,42 @@
+@import './common/variable';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Epilogue', sans-serif;
+    background-color: $AlmostWhite;
+}
+
+p{
+    font-size: 18px;
+}
+button{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    -webkit-tap-highlight-color: transparent;
+    font-family: 'Epilogue', sans-serif;
+}
+a{
+    cursor: pointer;
+    color: $MediumGray;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 18px;
+    &:hover{
+        color: $AlmostBlack;
+    }
+}
+
+.opacity{
+    opacity: 0.5;
+}
+
+@media screen and (min-width:576px){}
+@media screen and (min-width:768px){}
+@media screen and (min-width:992px){}
+@media screen and (min-width:1200px){}
