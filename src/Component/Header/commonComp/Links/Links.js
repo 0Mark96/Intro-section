@@ -5,8 +5,8 @@ const Links = () => {
     
   return (
     <>
-      <a href='./#' className={link}>Careers</a>
-      <a href='./#' className={link}>About</a>
+      <li className={link} role='none'><a href='./#' role='menuitem'>Careers</a></li>
+      <li role='none' className={link}><a href='./#' role='menuitem'>About</a></li>
     </>
   )
 }

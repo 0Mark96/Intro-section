@@ -8,10 +8,10 @@ const Hero = () => {
     const {hero} = style
   
   return (
-    <section className={hero}>
+    <main className={hero}>
       <Picture />
       <Intro />
-    </section>
+    </main>
   )
 }
 

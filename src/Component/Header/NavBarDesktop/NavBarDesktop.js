@@ -8,12 +8,15 @@ import BtnLogReg from "../commonComp/BtnLogReg/BtnLogReg"
 const NavBarDesktop = () => {
   const {navBar_desktop,nav_link,btn_wrapper} = style
   return (
-    <div className={navBar_desktop}>
+    <div className={navBar_desktop} role='navigation'>
         
-        <nav className={nav_link}>
-          <Dropdown>Features</Dropdown>
-          <Dropdown>Company</Dropdown>  
-          <Links/>
+        <nav  role='navigation'>
+          <ul className={nav_link} role='menubar'>
+            <Dropdown>Features</Dropdown>
+            <Dropdown>Company</Dropdown>  
+            <Links/>
+          </ul>
+
         </nav>
 
         <div className={btn_wrapper}>

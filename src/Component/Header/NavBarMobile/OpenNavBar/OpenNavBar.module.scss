@@ -1,3 +1,6 @@
-.close_navBar{
-    z-index: 2;
+
+@media screen and (min-width:992px){
+    .open_navBar{
+        display: none;
+    }
 }

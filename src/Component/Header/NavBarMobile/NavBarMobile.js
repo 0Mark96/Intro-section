@@ -23,10 +23,12 @@ const NavBarMobile = () => {
         
         <CloseNavBar setIsNavBarOpen={setIsNavBarOpen}/>
        
-        <nav className={nav_link}>
-          <Dropdown>Features</Dropdown>
-          <Dropdown>Company</Dropdown>  
-          <Links/>
+        <nav  role='navigation' className={nav_link} >
+          <ul role='menubar'>
+            <Dropdown>Features</Dropdown>
+            <Dropdown>Company</Dropdown>  
+            <Links/>
+          </ul>
         </nav>
 
         <div className={btn_wrapper}>

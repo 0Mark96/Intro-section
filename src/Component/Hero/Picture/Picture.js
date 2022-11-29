@@ -8,7 +8,7 @@ const Picture = () => {
   return (
     <picture className={picture_wrapper}>
       <source media="(min-width: 992px)" srcSet={imgDesktop} />
-      <img src={imgMobile} alt="Chris standing up holding his daughter Elva" />
+      <img src={imgMobile} alt="guy that hold computer" />
    </picture>
   )
 }
